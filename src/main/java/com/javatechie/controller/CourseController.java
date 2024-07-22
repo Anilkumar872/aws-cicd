@@ -63,6 +63,11 @@ public class CourseController {
         return "Hello Techie , AWS CICD Example working fine !";
     }
 
+     @GetMapping("/test")
+    public String greetings() {
+        return "Hello Techie , AWS CICD Example working fine !";
+    }
+
     //fake commit
 
 }
